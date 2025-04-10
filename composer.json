@@ -1,0 +1,21 @@
+{
+    "name": "handcode/yii2-active-record-typecast-behavior",
+    "description": "TypeCast Behavior for yii2 ActiveRecords which can be used to ensure attribute types match db schema types",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jens Giessmann",
+            "email": "jg@handcode.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "handcode\\activeRecordTypecastBehavior\\": "src/"
+        }
+    }
+}
