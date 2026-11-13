@@ -1,6 +1,6 @@
 # yii2-active-record-typecast-behavior
 
-This behavior can be used to typecast attribute values according to the db->schema types
+This behavior can be used to typecast yii2 ActiveRecord attribute values according to the db->schema types
 
 Why? 
 
@@ -19,7 +19,6 @@ The default typeFilter definition is:
 ```php
 public $typeFilter = [
     'integer' => 'intval',
-    'float'   => 'floatval',
-    'boolean' => 'boolval'
+    'float'   => 'floatval'
 ];
 ```
